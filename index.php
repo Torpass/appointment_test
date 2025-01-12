@@ -3,4 +3,3 @@
     echo 'prueba';
 ?>
 <?php include('templates/footer.php');?>
-  

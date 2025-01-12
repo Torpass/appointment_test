@@ -21,7 +21,7 @@ $base_url = 'http://localhost/appointments';
     
 
   <!-- Jquery integration -->
-  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
   <!-- Datatable integration -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css"/>
@@ -46,6 +46,9 @@ $base_url = 'http://localhost/appointments';
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo $base_url?>/views/employees/index.php">Employees</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo $base_url?>/views/appointments/index.php">Appointments</a>
             </li>
         </ul>
     </nav>
